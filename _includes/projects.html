@@ -1,0 +1,15 @@
+<div class="projects">
+    <h1>Projects</h1>
+    {% for project in site.projects %}
+      <div class="project_box">
+        <div class="project_contents">
+            <h4><a href="https://github.com/gwfisher/{{ projects.repo }}">{{ project.name }}</a></h4>
+            <i>{{ project.type }}</i>
+            <br>
+            {{ project.content }}
+            <span style="display: inline-block; padding: 3px 2px"><i class="fa-solid fa-link"></i></span><a href="{{ project.uri }}">{{ project.uri }}</a></span>
+          </div>
+      </div>
+    {% endfor %}
+  </div>
+  

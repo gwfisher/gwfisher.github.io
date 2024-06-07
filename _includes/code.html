@@ -1,0 +1,24 @@
+<div class="projects">
+    <h1>Code</h1>
+    {% for code in site.code %}
+      <div class="project_box">
+        <div class="project_contents">
+            <h4><a href="https://github.com/gwfisher/{{ code.repo }}">{{ code.name }}</a></h4>
+            <br>
+            <div id="description_{{ forloop.index }}"></div>
+            <br>
+            <div>  
+                <span style="display: inline-block;"><i class="fa-solid fa-code"></i></span> {{ code.language }}
+                <span style="display: inline-block; padding: .25em 0.5em"><i class="fa-solid fa-star"></i></span><span id="stars_{{ forloop.index }}"></span>
+                <span style="display: inline-block; padding: .25em 0.5em"><i class="fa-solid fa-code-fork"></i></span><span id="forks_{{ forloop.index }}"></span>
+            </div>
+        </div>
+        <script>
+          getStarCount('{{ code.repo }}', '#stars_{{ forloop.index }}','#forks_{{ forloop.index }}','#description_{{forloop.index }}');
+        </script>
+      </div>
+    {% endfor %}
+  </div>
+  
+  
+  

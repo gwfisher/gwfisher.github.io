@@ -1,0 +1,12 @@
+<div class="projects">
+    <h1>Blog</h1>
+        <div id="accordion">
+            {% for post in site.posts %}
+                <h4><a class="read-more" href="{{ post.url }}">{{ post.title }} - <i>{{ post.date | date_to_string: "ordinal", "US"}}</i></a></h4>
+                    
+                {{ post.excerpt }}
+            {% endfor %}
+        </div>
+    </div>
+</div>
+  
