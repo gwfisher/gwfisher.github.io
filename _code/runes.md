@@ -3,4 +3,4 @@ name: runes
 repo: runes
 language: html
 ---
-Personal portfolio and projects
+A little rune reading site using Jekyll and Cloudflare workers
