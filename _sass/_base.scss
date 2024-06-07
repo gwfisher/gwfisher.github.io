@@ -12,6 +12,9 @@ body {
     font-variation-settings:
         "wdth" 100;
     margin: 0px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 a {
