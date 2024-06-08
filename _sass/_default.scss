@@ -61,6 +61,10 @@
     margin-left: 5px;
 }
 
+.accordion {
+    display: inline-block;
+    width: 70%;
+}
 
 .ui-accordion-header {
     background-color: $nord3;

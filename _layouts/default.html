@@ -30,19 +30,23 @@
     </head>
     <body>
         
-                
+        <header class="ygdrassil">
             {% include header.html %}
-        <div class="content">
-            <div class="bio">
+        </header>
+        <main class="content">
+            <section class="bio">
                 {% include bio.html %}
-            </div>
+            </section>
             
-            <div class="projects">
+            <aside class="projects">
                 {% include projects.html %}
                 {% include code.html %}
                 {% include blog.html %}
-            </div>
-        </div>
-        {% include footer.html %}
+            </aside>
+           
+        </main>
+        <footer>
+            {% include footer.html %}
+        </footer>
     </body>
 </html>
