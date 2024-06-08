@@ -11,29 +11,38 @@
 
 .footer_content {
     font-size: xx-small;
+    margin-left: 20px;
+}
+
+.algiz {
+    margin-left: 20px;
 }
 
 .content {
     display: flex;
-    margin: 0 auto;
+    margin-left: auto;
     width: 75%;
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .bio {
-    float: left;
+    display: block;
+    margin-top: 0px;
+    margin-right: 10px;
+    width: 300px;
     
 }
 
 .projects {
-    display: inline-block;
-    padding-left: 20px; 
+    margin-top: 0px;
+    margin-left: 0px;
+    display: block;
+    width: 60%;
 
 }
 
 .code {
-    display: block;
-    border: 1px 1px 1px 1px;
 
 }
 
