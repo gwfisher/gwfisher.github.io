@@ -11,11 +11,11 @@
 
 .footer_content {
     font-size: xx-small;
-    margin-left: 20px;
+    margin-left: 10px;
 }
 
 .algiz {
-    margin-left: 20px;
+    margin-left: 10px;
 }
 
 .content {
@@ -48,6 +48,7 @@
 
 .blog {
     display: block;
+    width: 85%;
 }
 
 .project_box {
@@ -61,10 +62,7 @@
     margin-left: 5px;
 }
 
-.accordion {
-    display: inline-block;
-    width: 70%;
-}
+
 
 .ui-accordion-header {
     background-color: $nord3;
