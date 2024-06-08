@@ -31,10 +31,15 @@
     <body>
         {% include header.html %}
         <div class="content">
-            {% include bio.html %}
-            {% include projects.html %}
-            {% include code.html %}
-            {% include blog.html %}
+            <div class="bio">
+                {% include bio.html %}
+            </div>
+            
+            <div class="projects">
+                {% include projects.html %}
+                {% include code.html %}
+                {% include blog.html %}
+            </div>
         </div>
         {% include footer.html %}
     </body>
